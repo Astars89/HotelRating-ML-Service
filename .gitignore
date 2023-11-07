@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment
+venv/
+env/
+*.env
+*.log
+
+# Dependency directories
+lib/
+lib64/
+bin/
+include/
+libexec/
+share/
+
+# Ignore configuration files with sensitive information
+config.py
+
+# Editor files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore the database files
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore .env file containing sensitive information
+.env
