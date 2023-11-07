@@ -11,7 +11,7 @@ This project is focused on developing a hotel rating prediction model using mach
 
 ## Dataset
 
-The dataset hotels.csv used for this project contains information on various hotels, including features like the average score, the number of reviews, reviewer scores, and more. It also includes information about the reviewers' nationality and the distance of the hotel from the city center.
+The dataset [hotels.csv](https://www.kaggle.com/datasets/lidiyacutie/hotels) used for this project contains information on various hotels, including features like the average score, the number of reviews, reviewer scores, and more. It also includes information about the reviewers' nationality and the distance of the hotel from the city center.
 
 ## Jupyter Notebooks
 
