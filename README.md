@@ -23,6 +23,30 @@ In this project, Jupyter notebooks are included for various tasks, such as data 
 
 The model was trained using a Random Forest Regressor, which is a powerful machine learning algorithm for regression tasks. The training data consisted of a subset of the dataset, with features and corresponding hotel ratings.
 
+## Model Evaluation
+
+### Metrics
+
+- **Mean Absolute Percentage Error (MAPE):** 0.946
+- **Mean Squared Error (MSE):** 1.608
+- **Root Mean Squared Error (RMSE):** 1.268
+- **R-squared (R2):** 0.399
+
+### Observations
+
+The model was evaluated using various regression metrics:
+
+- **MAPE (Mean Absolute Percentage Error):** MAPE measures the average percentage difference between actual and predicted values. Our model achieved a MAPE of 0.946, indicating a relatively low average percentage error in predicting hotel ratings.
+
+- **MSE (Mean Squared Error):** MSE quantifies the average squared difference between actual and predicted values. The calculated MSE is 1.608, suggesting the model's predictions have some variance from the actual values.
+
+- **RMSE (Root Mean Squared Error):** RMSE is the square root of MSE and provides a measure of the absolute fit of the model to the data. Our model obtained an RMSE of 1.268, signifying the average prediction error is around 1.268 units.
+
+- **R2 (R-squared):** R2 gauges the proportion of variance in the dependent variable explained by the model. The R2 score obtained is 0.399, indicating that the model explains approximately 39.9% of the variance in hotel ratings.
+
+These metrics collectively suggest that while the model provides reasonably accurate predictions, there is room for improvement in reducing the prediction errors and enhancing the overall model performance.
+
+
 ## How to Use the Model
 
 1. **Run the Web Application**: To use the model, run the provided web application using Flask.
